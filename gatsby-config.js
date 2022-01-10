@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Prismic Data Reader",
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-postcss`],
 };
