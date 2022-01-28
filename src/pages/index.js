@@ -62,8 +62,8 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const repoName = "netflix-queue";
-const endpoint = prismic.getEndpoint(repoName);
+// const repoName = "netflix-queue";
+const endpoint = prismic.getEndpoint(DATA_CONFIG.repoName);
 const client = prismic.createClient(endpoint);
 
 // markup
